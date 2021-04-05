@@ -54,5 +54,4 @@ app.listen(port, () => {
   /* eslint no-console: "off" */
 
   console.info(`Server started on ${port}`);
-  console.info(`Open http://localhost:${port}/`);
 });
