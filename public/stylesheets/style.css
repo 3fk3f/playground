@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.dog-image-container {
+  border-radius: 50%;
+  width: 900px;
+  max-width: 90%;
+  overflow: hidden;
+  transition: border-radius 1s;
+}
+
+.dog-image-container:hover {
+  border-radius: 0;
+}
+
+.dog-image {
+  width: 100%;
+  height: 100%;
+}
