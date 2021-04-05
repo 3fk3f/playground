@@ -2,5 +2,5 @@
 module.exports = {
   debug: false,
   port: process.env.PORT,
-  staticBasePath: '//playground.surge.sh/'
+  staticBasePath: '//playground3310.surge.sh/'
 };
