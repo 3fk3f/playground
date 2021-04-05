@@ -2,6 +2,7 @@ const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
+require('dotenv').config();
 const config = require('config');
 const morgan = require('morgan');
 
@@ -50,6 +51,8 @@ app.use(function (err, req, res) {
 });
 
 app.listen(port, () => {
+  /* eslint no-console: "off" */
+
   console.info(`Server started on ${port}`);
   console.info(`Open http://localhost:${port}/`);
 });

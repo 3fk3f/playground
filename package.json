@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./app/app.js",
+    "start": "cross-env NODE_ENV=production node ./app/app.js",
     "dev": "cross-env NODE_ENV=development nodemon ./app/app.js",
     "lint": "npm-run-all lint:*",
     "lint:css": "stylelint --fix ./**/*.css",

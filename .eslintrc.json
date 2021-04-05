@@ -12,6 +12,7 @@
         "ecmaVersion": 12
     },
     "rules": {
-      "semi": ["warn", "always"]
+        "no-console": "warn",
+        "semi": ["warn", "always"]
     }
 }
