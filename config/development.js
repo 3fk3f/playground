@@ -1,6 +1,6 @@
 
 module.exports = {
   debug: true,
-  PORT: 3000,
+  port: 3000,
   staticBasePath: '/'
 };

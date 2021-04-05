@@ -7,7 +7,7 @@ const morgan = require('morgan');
 
 const commonDataMiddleware = require('./middlewares/common-data');
 
-const port = config.get('PORT');
+const port = config.get('port');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
