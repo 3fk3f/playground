@@ -7,6 +7,8 @@ const morgan = require('morgan');
 
 const commonDataMiddleware = require('./middlewares/common-data');
 
+const port = config.get('PORT');
+
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
@@ -47,7 +49,7 @@ app.use(function (err, req, res) {
   res.render('error');
 });
 
-app.listen(3000, () => {
-  console.info(`Server started on ${3000}`);
-  console.info(`Open http://localhost:${3000}/`);
+app.listen(port, () => {
+  console.info(`Server started on ${port}`);
+  console.info(`Open http://localhost:${port}/`);
 });
